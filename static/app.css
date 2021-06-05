@@ -35,12 +35,12 @@ h1, h2, h3 {
     font-weight: bold;
 }
 
-#main-navigation a:hover, 
-#main-navigation a:active {
-    color: palevioletred;
+#main-navigation nav a:hover, 
+#main-navigation nav a:active {
+    color: #fbee35;
 }
 
 #main-navigation h1 a:hover,
 #main-navigation h1 a:active {
-    color: #f0e65e;
+    color: #fbee35;
 }

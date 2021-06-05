@@ -11,3 +11,8 @@ class CommentForm(forms.ModelForm):
             "user_email": "Your Email",
             "text": "Your Comment"
         }
+        errors = {
+             "user_name": "This field is required!",
+            "user_email": "Email id is not valid!",
+            "text": "Please leave a comment!"
+        }

@@ -1,5 +1,5 @@
 body {
-    background-color: #a8ad8b;
+    background-color: rgb(226, 223, 223);
 }
 
 #main-navigation {
@@ -12,13 +12,46 @@ body {
     color: #ff313194
 }
 
+#main-navigation nav a:hover,
+#main-navigation nav a:active {
+    color: #ff313194
+}
 
 #all-posts {
     margin: 7rem auto;
     width: 90%;
     max-width: 60rem;
+
 }
 
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem 2rem;
+    list-style-type: none;
+}
+
+.post a {
+    height: 60vh;
+    width: 25vw;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 24px;
+    background: #e0e0e0;
+    box-shadow:  35px 35px 70px #bebebe,
+                 -35px -35px 70px #ffffff;
+    margin: 2rem 2rem;
+    transition: all 0.2s ease-in-out;
+    text-align: center;
+}
+
+.post a:hover,
+.post a:active {
+    background-color: #d4ad52;
+    transform: scale(1.1);
+    color: white;
+    cursor: pointer;
+}
 
 #all-posts h2 {
     text-align: center;
@@ -32,15 +65,3 @@ body {
     gap: 1.5rem;
 }
 
-.post img {
-    width: 7rem;
-    height: 7rem;
-}
-
-.post a {
-    height: 17rem;
-    transform-origin: center;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
-    border-radius: 12px;
-    background-color: white;
-}

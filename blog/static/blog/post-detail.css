@@ -124,3 +124,39 @@ main {
     border-radius: 6px;
     border: 1px solid #ccc;
 }
+
+.errorlist {
+    list-style: none;
+    margin: 0.5rem 0;
+    padding: 0;
+    color: #c80000;
+}
+
+.invalid label {
+    color: #c80000;
+}
+
+.invalid input,
+.invalid textarea {
+    border-color: #c80000;
+    background-color: #ffdada;
+}
+
+#alert {
+    margin: 8rem auto 3rem auto;
+    border: 1px solid #c80000;
+    background-color: #e7cdcd;
+    padding: 1rem;
+    width: 90%;
+    max-width: 40rem;
+}
+
+#alert a {
+    text-decoration: none;
+    border: 1px solid #c80000;
+    background-color: #c80000;
+    color: white;
+    padding: 0.25rem 1.5rem;
+    border-radius: 6px;
+    cursor: pointer;
+}
